@@ -1,0 +1,27 @@
+#quiz-container {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#question-container, #score-container {
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.choice-btn {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.choice-btn.selected {
+    background-color: lightblue;
+}
